@@ -1,14 +1,12 @@
-import os
-import sys
-from pathlib import Path
-from kivy.clock import Clock
-
-
 from kivy.lang import Builder
 from kivymd.uix.list import OneLineListItem
 from kivymd.app import MDApp
 from kivymd.theming import ThemableBehavior
 from kivymd.uix.screen import MDScreen
+import sys
+from pathlib import Path
+from kivy.clock import Clock
+
 import os
 
 from kivy.animation import Animation
@@ -17,7 +15,6 @@ from kivy.properties import StringProperty, ObjectProperty, NumericProperty
 
 from kivymd.theming import ThemableBehavior
 from kivymd.uix.screen import MDScreen
-import requests
 from kivymd.toast import toast
 from kivymd.uix.dialog import MDDialog
 from kivymd.uix.button import MDFlatButton
@@ -25,10 +22,8 @@ from kivymd.uix.button import MDFlatButton
 from kivymd.uix.boxlayout import MDBoxLayout
 from kivy.uix.boxlayout import BoxLayout
 
-import sqlite3
 from kivy.uix.popup import Popup
 from kivy.uix.floatlayout import FloatLayout
-import os
 from kivy.core.audio import SoundLoader
 from kivy.clock import Clock
 import random
@@ -36,15 +31,14 @@ from tinytag import TinyTag
 from kivy.factory import Factory
 from kivy.uix.popup import Popup
 from pathlib import Path
-import os
 import time
 from kivymd.uix.filemanager import MDFileManager
 from kivy.uix.modalview import ModalView
 from kivymd.uix.list import OneLineAvatarListItem
 from kivy.core.window import Window
-# from wakepy import set_keepawake, unset_keepawake
+from wakepy import set_keepawake, unset_keepawake
 
-# set_keepawake(keep_screen_awake=True)
+set_keepawake(keep_screen_awake=True)
 
 Window.size = (1300, 600)
 
